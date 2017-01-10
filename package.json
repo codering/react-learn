@@ -1,0 +1,35 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "react samples in practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=9300 roadhog server --no-open",
+    "build": "roadhog build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codering/react-practice.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "codering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codering/react-practice/issues"
+  },
+  "homepage": "https://github.com/codering/react-practice#readme",
+  "dependencies": {
+    "antd": "^1.11.5",
+    "babel-runtime": "^6.20.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.0",
+    "babel-plugin-transform-runtime": "^6.15.0"
+  }
+}
